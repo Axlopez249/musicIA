@@ -1,0 +1,28 @@
+package iamusic;
+
+public class Generador_letra extends Generos{
+
+	private String frase_base;
+	private String genero;
+
+	public Generador_letra(String pfrase, String pgenero) {
+		this.frase_base = pfrase;
+		this.genero = pgenero;
+		
+		generarLetra(frase_base, genero);
+	}
+	
+	public void generarLetra(String frase, String pgenero) {
+		//Esto comienza a generar la letra segun la frase
+	}
+
+	@Override
+	void cambiarGenero(String Genero_cambiar) {
+		// Esto realiza el cambio del genero durante la creacion de la letra
+		
+	}
+	
+	
+
+	
+}

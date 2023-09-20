@@ -1,0 +1,12 @@
+package iamusic;
+
+public class Main {
+	public static void main(String [] args) {
+		//Se crea para generar la letra
+		Generador_letra generador_letra = new Generador_letra("el amor de mi vida no me contesta los mensajes de whatsapp", "Rock");
+		
+		//Se crea para generar la cancion con la letra
+		Generador_cancion generador_cancion = new Generador_cancion(generador_letra);
+		
+	}
+}

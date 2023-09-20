@@ -1,0 +1,5 @@
+package iamusic;
+
+public interface Generador_letra {
+
+}

@@ -1,0 +1,15 @@
+package iamusic;
+
+public class Generador_cancion implements Generador_letra{
+	public Generador_cancion() {
+		
+	}
+	
+	public void generarLetra(String frase) {
+		//Esto comienza a generar la letra segun la frase
+	}
+	
+	void cambiarGenero() {
+		// Esto es para cambiar la letra segun se vaya solicitando cuando se va creando
+	}
+}
