@@ -1,0 +1,7 @@
+package iamusic;
+
+abstract class Letra {
+	public void generarCancion(String letra);
+	
+	public void solicitarCambio(String pcambio);
+}

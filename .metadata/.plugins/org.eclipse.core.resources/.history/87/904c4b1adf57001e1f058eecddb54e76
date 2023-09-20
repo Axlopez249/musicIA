@@ -1,6 +1,6 @@
 package iamusic;
 
-public class Generador_cancion extends Letra{
+public class Generador_cancion {
 	private Generador_letra generator;
 	private String cambio;
 	

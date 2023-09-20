@@ -1,6 +1,6 @@
 package iamusic;
 
-public class Generador_letra extends Genero{
+public class Generador_letra extends Generos{
 
 	private String frase_base;
 	private String genero;
@@ -18,12 +18,11 @@ public class Generador_letra extends Genero{
 	public void generarLetra(String frase, String pgenero, String ptipoletra) {
 		//Esto comienza a generar la letra segun la frase, el genero y el tipo de letra
 		String letra_creada = null;//Va a ser la letra creada
-		this.letra_realizada += letra_creada;
+		this.letra_realizada = letra_creada;
 	}
 	
 	public void agregarGenero(String genero_nuevo) {
 		//Trae un nuevo genero para agregar a la creacion de la letra y con ello a la cancion como tal
-		generarLetra(frase_base, genero_nuevo, tipoletra);
 	}
 
 	@Override
